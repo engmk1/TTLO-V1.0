@@ -1,0 +1,15 @@
+{
+  "name": "ttlo-3d",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TTLO – Transformer Truck Loading Optimizer (VOLTAMP Power Transformers)",
+  "scripts": {
+    "start": "node tests/serve.mjs",
+    "test": "node tests/smoke.mjs",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0",
+    "wrangler": "4.154.0"
+  }
+}
